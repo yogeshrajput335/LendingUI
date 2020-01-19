@@ -16,6 +16,9 @@ import { IconsComponent } from '../../icons/icons.component';
 import { MapsComponent } from '../../maps/maps.component';
 import { NotificationsComponent } from '../../notifications/notifications.component';
 import { UpgradeComponent } from '../../upgrade/upgrade.component';
+import { LoanStatusComponent } from '../../loanstatus/loanstatus.component';
+import { ApplicationComponent } from '../../application/application.component';
+import { ApplicationListComponent } from '../../applicationlist/applicationlist.component';
 
 
 @NgModule({
@@ -34,7 +37,10 @@ import { UpgradeComponent } from '../../upgrade/upgrade.component';
     IconsComponent,
     MapsComponent,
     NotificationsComponent,
-    UpgradeComponent
+    UpgradeComponent,
+    LoanStatusComponent,
+    ApplicationComponent,
+    ApplicationListComponent
   ]
 })
 

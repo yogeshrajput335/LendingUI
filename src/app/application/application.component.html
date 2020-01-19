@@ -1,0 +1,123 @@
+<div class="main-content" >
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-7">
+                    <div class="card">
+                        <div class="header">
+                            <h4 class="title">Loan Application</h4>
+                        </div>
+                        <div class="content">
+                            <form>
+                                <div class="row">
+                                    <div class="col-md-5">
+                                        <div class="form-group">
+                                            <label>Application Number (disabled)</label>
+                                            <input type="text" class="form-control" disabled placeholder="Application Number" value="App-123333">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-7">
+                                        <div class="form-group">
+                                            <label> Name</label>
+                                            <input type="text" class="form-control" placeholder="Name">
+                                        </div>
+                                    </div>
+                                </div>
+    
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label>Mobile</label>
+                                            <input type="text" class="form-control" placeholder="Mobile">
+                                        </div>
+                                        
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label>Email</label>
+                                            <input type="text" class="form-control" placeholder="Email" >
+                                        </div>
+                                    </div>
+                                </div>
+    
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <label>Address</label>
+                                            <input type="text" class="form-control" placeholder="Home Address">
+                                        </div>
+                                    </div>
+                                </div>
+    
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label>Loan Amount</label>
+                                            <input type="text" class="form-control" placeholder="Loan Amount" >
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label>Number of Install</label>
+                                            <input type="text" class="form-control" placeholder="Number of Install" >
+                                        </div>
+                                    </div>
+                                </div>
+                                <button type="submit" class="btn btn-info btn-fill pull-right">Apply</button>
+                                <div class="clearfix"></div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-5">
+                        <div class="card">
+                                <div class="header">
+                                    <h4 class="title">Loan History</h4>
+                                    <!-- <p class="category">Here is a subtitle for this table</p> -->
+                                </div>
+                                <div class="content table-responsive table-full-width">
+                                      <table class="table table-hover table-striped">
+                                            <thead>
+                                                <tr>
+                                                    <th *ngFor="let cell of tableData1.headerRow">{{ cell }}</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr *ngFor="let row of tableData1.dataRows">
+                                                    <td *ngFor="let cell of row">{{cell}}</td>
+                                                </tr>
+                                            </tbody>
+                                      </table>
+            
+                                </div>
+                            </div>
+                    <!-- <div class="card card-user">
+                        <div class="image">
+                            <img src="https://ununsplash.imgix.net/photo-1431578500526-4d9613015464?fit=crop&fm=jpg&h=300&q=75&w=400" alt="..."/>
+                        </div>
+                        <div class="content">
+                            <div class="author">
+                                <a href="#">
+                                    <img class="avatar border-gray" src="assets/img/faces/face-3.jpg" alt="..."/>
+    
+                                    <h4 class="title">Mike Andrew<br />
+                                        <small>michael24</small>
+                                    </h4>
+                                </a>
+                            </div>
+                            <p class="description text-center"> "Lamborghini Mercy <br>
+                                Your chick she so thirsty <br>
+                                I'm in that two seat Lambo"
+                            </p>
+                        </div>
+                        <hr>
+                        <div class="text-center">
+                            <button href="#" class="btn btn-simple"><i class="fa fa-facebook-square"></i></button>
+                            <button href="#" class="btn btn-simple"><i class="fa fa-twitter"></i></button>
+                            <button href="#" class="btn btn-simple"><i class="fa fa-google-plus-square"></i></button>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </div>
+    
